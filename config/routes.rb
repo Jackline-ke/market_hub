@@ -1,12 +1,18 @@
 Rails.application.routes.draw do
-  resources :ratings
-  resources :reviews
-  resources :carts
-  resources :products
-  resources :categories
-  resources :buyers
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  resources :buyers do
+    resource :cart, only: [:show, :update]
+  end
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  resources :carts, only: [:show, :update]
+
+  resources :products do
+    resources :ratings, except: [:index, :show]
+    resources :reviews, except: [:index, :show]
+  end
+
+  resources :categories
+
+  resources :ratings, only: [:update, :destroy]
+  resources :reviews, only: [:update, :destroy]
+
 end
