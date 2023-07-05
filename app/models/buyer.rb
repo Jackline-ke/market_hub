@@ -1,2 +1,6 @@
 class Buyer < ApplicationRecord
-end
+    has_one :cart
+    has_many :ratings
+    has_many :reviews
+  end
+  

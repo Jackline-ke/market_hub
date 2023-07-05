@@ -1,2 +1,6 @@
+# app/models/rating.rb
 class Rating < ApplicationRecord
-end
+    belongs_to :buyer
+    belongs_to :product
+  end
+  

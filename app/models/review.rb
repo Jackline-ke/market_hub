@@ -1,2 +1,6 @@
+# app/models/review.rb
 class Review < ApplicationRecord
-end
+    belongs_to :buyer
+    belongs_to :product
+  end
+  

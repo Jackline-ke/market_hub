@@ -1,2 +1,7 @@
+# app/models/product.rb
 class Product < ApplicationRecord
-end
+    belongs_to :category
+    has_many :ratings
+    has_many :reviews
+  end
+  

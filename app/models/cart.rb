@@ -1,2 +1,5 @@
+# app/models/cart.rb
 class Cart < ApplicationRecord
-end
+    belongs_to :buyer
+  end
+  
