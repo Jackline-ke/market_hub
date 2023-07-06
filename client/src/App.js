@@ -1,8 +1,10 @@
 
 import React from "react";
-import Banner from "./components/Banner";
-import Navbar from "./components/Navbar";
 import './App.css';
+import Banner from "./components/Banner";
+import Featured from "./components/Featured";
+import Navbar from "./components/Navbar";
+import Offer from "./components/Offer";
 import Footer from './components/Footer';
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Banner />
+     <Featured />
+     <Offer />
       <Footer />
     </div>
   );
