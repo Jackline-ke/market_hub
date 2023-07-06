@@ -1,2 +1,7 @@
+# app/models/cart.rb
 class Cart < ApplicationRecord
-end
+    belongs_to :buyer
+  
+    validates :buyer_id, presence: true
+  end
+  
