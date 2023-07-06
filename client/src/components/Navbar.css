@@ -1,0 +1,13 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.n-logo{
+    font-size: 1.3rem;
+    font-weight: bold  ;
+}
+.n-list>ul >li:hover{
+    cursor: pointer;
+    color: #fca61f;
+}
