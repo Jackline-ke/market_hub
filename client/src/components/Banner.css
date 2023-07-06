@@ -1,0 +1,54 @@
+.banner{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+.b-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+}
+.b-title{
+    display: flex;
+    flex-direction: column;
+}
+.b-title>:nth-child(1){
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.b-title>:nth-child(2){
+    color: #fca61f;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;;
+}
+.b-title>:nth-child(3){
+    font-weight: 100;
+    font-size: 16px;
+    color: black;
+
+}
+.b-right{
+    flex: 1;
+    position: relative;
+}
+.b-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.b-right>:nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+}
+.b-right>:nth-child(2){
+    top: -4.6rem;
+    transform: scale(0.67);
+    left: -3rem;
+}
+.b-right>:nth-child(3){
+    transform: scale(1.2);
+   
+}

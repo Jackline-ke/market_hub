@@ -6,6 +6,7 @@ module.exports = {
       primary: 'Orbitron',
       secondary: 'Rajdhani',
       tertiary: 'Aldrich',
+      logo: 'Pacifico'
     },
     extend: {
       colors: {
