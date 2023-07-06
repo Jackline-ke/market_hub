@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Featured.css"
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Featured(){
+    useEffect( () =>{
+        AOS.init({duration: 2000});
+    }, [])
+
     return(
         <div id="featured">
             <div className="flex justify-center">
-                <h1 className="f-title font-bold text-4xl pt-16 mb-8">Featured Products</h1>
+                <h1 data-aos="fade-up" className="f-title font-bold text-4xl pt-16 mb-8">Featured Products</h1>
             </div>
-            <div className="p-8 flex">
+            <div data-aos="zoom-in" className="p-8 flex">
                 <div className='phone'>
                     <img src='https://i.pinimg.com/236x/e4/39/89/e439896ca261671d3e98607ec5c93fc1.jpg' className="h-80 w-48"/>
                     <div className="flex justify-center pt-2">
