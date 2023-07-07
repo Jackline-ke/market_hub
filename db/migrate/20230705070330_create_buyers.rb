@@ -3,7 +3,8 @@ class CreateBuyers < ActiveRecord::Migration[7.0]
     create_table :buyers do |t|
       t.string :name
       t.string :password
-
+      
+      
       t.timestamps
     end
   end
