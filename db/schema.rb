@@ -13,7 +13,7 @@
 ActiveRecord::Schema[7.0].define(version: 2023_07_05_070804) do
   create_table "buyers", force: :cascade do |t|
     t.string "name"
-    t.string "password"
+    t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -42,6 +42,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_05_070804) do
   end
 
   create_table "ratings", force: :cascade do |t|
+    t.integer "value"
     t.integer "product_id"
     t.integer "buyer_id"
     t.datetime "created_at", null: false
@@ -51,6 +52,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_05_070804) do
   end
 
   create_table "reviews", force: :cascade do |t|
+    t.string "content"
     t.integer "product_id"
     t.integer "buyer_id"
     t.datetime "created_at", null: false
