@@ -36,4 +36,7 @@
 
 #Ignore Gemfile while still allowing others to use their own Ruby version
 Gemfile
+Gemfile.lock
+.ruby-version
+.ruby-gemset
 
