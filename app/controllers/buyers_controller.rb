@@ -50,4 +50,4 @@ class BuyersController < ApplicationController
       params.require(:buyer).permit(:name, :email)
     end
   end
-  
+   
