@@ -4,100 +4,100 @@
         "id": 1,
         "name": "iPhone 12 Pro Max",
         "description": "A high-end smartphone with 5G capabilities and a 6.7-inch OLED display.",
-        "price": 1099.99,
-        "category": "Smartphones",
-        "image": "https://i.pinimg.com/236x/cc/50/57/cc5057abcec78a3a6e3ef98c18b84825.jpg"
+        "price": 1200,
+        "category": "Phones",
+        "image": "https://i.pinimg.com/236x/e4/39/89/e439896ca261671d3e98607ec5c93fc1.jpg"
       },
       {
         "id": 2,
-        "name": "Samsung Galaxy S21 Ultra",
-        "description": "A powerful Android smartphone with a 6.8-inch Dynamic AMOLED display and a 108MP camera.",
-        "price": 1199.99,
-        "category": "Smartphones",
-        "image": "https://i.pinimg.com/236x/cc/50/57/cc5057abcec78a3a6e3ef98c18b84825.jpg"
+        "name": "MAC Lipstick",
+        "description": "Kissable",
+        "price": 300,
+        "category": "Beauty and Perfumes",
+        "image": "https://i.pinimg.com/564x/95/59/51/955951440ff22d2af6ad28de981d4227.jpg"
       },
       {
         "id": 3,
-        "name": "MacBook Pro 16-inch",
-        "description": "A high-performance laptop with a 16-inch Retina display and up to 8-core Intel Core i9 processor.",
-        "price": 2399.99,
-        "category": "Laptops",
-        "image": "https://i.pinimg.com/236x/cc/50/57/cc5057abcec78a3a6e3ef98c18b84825.jpg"
+        "name": "Two Piece",
+        "description": "White Elegant 2 Piece",
+        "price": 120,
+        "category": "Womens' Fashion",
+        "image": "https://i.pinimg.com/236x/58/d0/aa/58d0aa4e0e5533eb1dc40242a36d2a0d.jpg"
       },
       {
         "id": 4,
-        "name": "HP Spectre x360 14",
-        "description": "A premium 2-in-1 laptop with a 14-inch OLED display and up to 11th Gen Intel Core i7 processor.",
-        "price": 1399.99,
-        "category": "Laptops",
-        "image": "https://i.pinimg.com/236x/cc/50/57/cc5057abcec78a3a6e3ef98c18b84825.jpg"
+        "name": "Casual Wear",
+        "description": "Rock in a black casual outfit",
+        "price": 200,
+        "category": "Mens' Fashion",
+        "image": "https://i.pinimg.com/236x/17/21/4c/17214c93633043cc0cf4e8d7c6dab5e3.jpg"
       },
       {
         "id": 5,
-        "name": "Sony PlayStation 5",
-        "description": "A next-generation gaming console with lightning-fast loading times and ray-tracing graphics.",
-        "price": 499.99,
-        "category": "Electronics",
-        "image": "https://i.pinimg.com/236x/cc/50/57/cc5057abcec78a3a6e3ef98c18b84825.jpg"
+        "name": "Maize Corn",
+        "description": "400g - Approx 4 pieces per KG",
+        "price": 4.6,
+        "category": "Groceries",
+        "image": "https://i.pinimg.com/564x/d8/43/ad/d843ad360d8f7615452b80b4bb725019.jpg"
       },
       {
         "id": 6,
-        "name": "Xbox Series X",
-        "description": "A powerful gaming console with 12 teraflops of processing power and support for 4K gaming.",
-        "price": 499.99,
+        "name": "African Men Clothing",
+        "description": "African men clothing, 2pics  men sets and cotton fabric",
+        "price": 40,
         "category": "Electronics",
-        "image": "https://i.pinimg.com/236x/7b/f1/c5/7bf1c56e0843ba95f9e9976d08b5a711.jpg"
+        "image": "https://i.pinimg.com/564x/5a/f5/5d/5af55d09fade358b062f8c3d7c56306a.jpg"
       },
       {
         "id": 7,
-        "name": "Nintendo Switch",
-        "description": "A hybrid gaming console that can be played on the go or on a TV.",
-        "price": 299.99,
-        "category": "Electronics",
-        "image": "https://i.pinimg.com/236x/15/1b/7c/151b7c8c041b1fa5aa1942f4d0b4ef9e.jpg"
+        "name": "Floral",
+        "description": "Floral Print Draped Detail Puff Lantern Sleeve Bodycon Dress",
+        "price": 100,
+        "category": "Womens' Fashion",
+        "image": "https://i.pinimg.com/564x/98/2a/c1/982ac1f15831a4676951d12c0f55ae95.jpg"
       },
       {
         "id": 8,
-        "name": "Apple AirPods Pro",
-        "description": "Wireless earbuds with active noise cancellation and customizable fit.",
-        "price": 249.99,
-        "category": "Electronics",
-        "image": "https://i.pinimg.com/236x/fa/ba/0a/faba0ae4a485e92270d502abe7b5738b.jpg"
+        "name": "Sauvage Dior",
+        "description": "Perfume is the art that makes memory speak",
+        "price": 500,
+        "category": "Beauty and Perfumes",
+        "image": "https://i.pinimg.com/236x/27/7f/47/277f47b959573fa274f68ee2c763d916.jpg"
       },
       {
         "id": 9,
-        "name": "Bose QuietComfort 35 II",
-        "description": "Noise-canceling headphones with Alexa voice control and up to 20 hours of battery life.",
+        "name": "Makeup Brushes",
+        "description": "We have selected the best makeup brush cleaners",
         "price": 299.99,
-        "category": "Headphones",
-        "image": "https://i.pinimg.com/236x/cc/50/57/cc5057abcec78a3a6e3ef98c18b84825.jpg"
+        "category": "Beauty and Perfumes",
+        "image": "https://i.pinimg.com/236x/07/f3/b8/07f3b8af899f1f225d0366e07a71e7c1.jpg"
       },
       {
         "id": 10,
-        "name": "Dell XPS 13",
-        "brand": "Dell",
-        "category": "Laptops",
-        "description": "The XPS 13 is a premium ultrabook with a 13.4-inch 16:10 display, 11th Gen Intel Core processors, and up to 16GB of RAM and 2TB of storage.",
-        "price": 999,
-        "image": "https://i.pinimg.com/236x/cc/50/57/cc5057abcec78a3a6e3ef98c18b84825.jpg"
+        "name": "Samsung Galaxy S22",
+        "brand": "DSamsung Galaxy S22",
+        "category": "Phones",
+        "description": "Samsung Galaxy S22 from AT&T",
+        "price": 626.33,
+        "image": "https://i.pinimg.com/564x/a2/b6/ca/a2b6ca75e267d5bc692a1f7814c16616.jpg"
       },
       {
         "id": 11,
-        "name": "LG OLED CX",
+        "name": "Black Dress",
         "brand": "LG",
-        "category": "TVs",
-        "description": "The OLED CX is a high-end 4K TV with a 120Hz refresh rate, HDMI 2.1, and support for Dolby Vision IQ and Dolby Atmos.",
-        "price": 1999,
-        "image": "https://i.pinimg.com/236x/cc/50/57/cc5057abcec78a3a6e3ef98c18b84825.jpg"
+        "category": "Womens' Fashion",
+        "description": "Short Black Dress Summer Time",
+        "price": 60,
+        "image": "https://i.pinimg.com/564x/d0/4d/99/d04d99d3785d139ec1b8e7516b08e347.jpg"
       },
       {
         "id": 12,
-        "name": "Electronic Humidifior",
+        "name": "Orange",
         "brand": "LG",
-        "category": "Air Freshner",
-        "description": "Brighten your day will a nice smell",
-        "price": 1999,
-        "image": "https://i.pinimg.com/236x/cc/50/57/cc5057abcec78a3a6e3ef98c18b84825.jpg"
+        "category": "Groceries",
+        "description": "400g - Approx 7 pieces per KG",
+        "price": 1.5,
+        "image": "https://i.pinimg.com/564x/7a/aa/a5/7aaaa545e00e8a434850e80b8910dd94.jpg"
       }
     ]
 }

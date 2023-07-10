@@ -3,7 +3,7 @@ import React from "react";
 function Phone({product, handleClick, isInCart}){
     return(
         <div id="phones">
-            <div className="border-t-2 border-gray-100"></div>
+            <div className="border-t-2 border-gray-100 mt-8"></div>
             <div className="mt-4 ml-4">
                 <h1 className="font-bold text-2xl ">Smartphones</h1>
             </div>

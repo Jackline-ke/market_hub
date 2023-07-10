@@ -32,6 +32,9 @@ function Cart({cart,setCart, handleClick}) {
     })
     return (
         <div>
+            <div className='w-full bg-yellow-400 mt-8'>
+                <h1 className='p-4 text-lg'>Cart</h1>
+            </div>
             {cartItem}
         </div>
     );

@@ -5,6 +5,8 @@ import React, {useState, useEffect} from 'react';
 import Cart from './pages/Cart';
 import Home from './pages/Home';
 import SignUp from './components/SignUp';
+import Login from './components/Login';
+import Phone from './components/Phone';
 
 function App() {
   const [products, setProducts] = useState([])
@@ -35,6 +37,8 @@ function App() {
           <Route path='/' element={< Home products={products} handleClick={handleClick}/> } />
             <Route path='/Cart' element={< Cart setCart={setCart} cart={cart} handleClick={handleClick} />}/>
             <Route path='/SignUp' element={<SignUp />}/>
+            <Route path='/Login' element={<Login />}/>
+            <Route path='/Phone' element={<Phone />}/>
           </Routes>
         </Router>
     </div>
