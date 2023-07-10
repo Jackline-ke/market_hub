@@ -12,7 +12,7 @@ function App() {
   
   // fetch data
   useEffect(() => {
-    fetch('http://localhost:3000/products')
+    fetch('/products')
     .then(res => res.json())
     .then(data => setProducts(data));
   }, []);
