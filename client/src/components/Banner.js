@@ -18,7 +18,7 @@ function Banner(){
                 </div>
                 <div>
                     <Link smooth={true} to="featured">
-                        <button className='mt-8  bg-yellow-400 shadow-lg shadow-yellow-500/50 p-2 w-28 font-semibold rounded-full text-white hover:bg-orange-300 hover:text-white'>Discover</button>
+                        <button className='mt-8 bg-yellow-400 shadow-lg shadow-yellow-500/50 p-2 w-28 font-semibold rounded-full text-white hover:bg-orange-300 hover:text-white'>Shop now</button>
                     </Link>
                 </div>
             </div>

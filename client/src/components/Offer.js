@@ -13,9 +13,6 @@ function Offer(){
    
     return(
         <div className="p-8">
-            <div className="flex justify-center">
-                <h1 data-aos="fade-up" className="f-title font-bold text-4xl mb-8">Offers</h1>
-            </div>
             <div className="h-56 w-full bg-yellow-400 flex rounded-lg shadow-lg shadow-yellow-500/50 mb-4">
                 <div >
                     <img src={beauty} alt="beauty" className="h-60 w-72 rounded-lg"/>
