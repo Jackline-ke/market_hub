@@ -37,7 +37,7 @@ function Women({product, handleClick, isInCart}){
                         <div>
                             <h1 className="font-bold ml-16">Black Dress</h1>
                             <p className="pt-2 text-sm text-gray-500">Short Black Dress <br/> Summer Time</p>
-                            <h2 className="font-bold ml-20 pt-2">$ 6</h2>
+                            <h2 className="font-bold ml-20 pt-2">$ 60</h2>
                             <button className='add-to-cart mb-8 mt-4 ml-8 bg-yellow-400 shadow-lg shadow-yellow-500/50 w-32 font-semibold rounded-full text-white hover:bg-orange-300 hover:text-white' onClick={() => handleClick(product, isInCart)}>Add To Cart</button>
                         </div>
                     </div> 
