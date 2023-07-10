@@ -22,13 +22,15 @@ end
 end
 
 10.times do
-  product = Product.create(
-    name: Faker::Commerce.product_name,
-    description: Faker::Lorem.sentence,
-    price: Faker::Commerce.price(range: 0..100.0),
-    category_id: Category.pluck(:id).sample
-  )
-end
+    product = Product.create(
+      name: Faker::Commerce.product_name,
+      description: Faker::Lorem.sentence,
+      price: Faker::Commerce.price(range: 0..100.0),
+      image_url: 'https://example.com/image.png', # Replace with the actual image URL
+      category_id: Category.pluck(:id).sample
+    )
+  end
+  
 
 10.times do
   buyer_id = Buyer.pluck(:id).sample
