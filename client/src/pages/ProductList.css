@@ -1,0 +1,15 @@
+.product-list{
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+  
+.product-list .description{
+    text-align: center;
+}
+
+  
