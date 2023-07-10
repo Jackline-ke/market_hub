@@ -1,22 +1,45 @@
-
-import React from "react";
 import './App.css';
-import Banner from "./components/Banner";
-import Featured from "./components/Featured";
-import Navbar from "./components/Navbar";
-import Offer from "./components/Offer";
-import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, {useState, useEffect} from 'react';
+import Cart from './pages/Cart';
+import Home from './pages/Home';
+import Signup from './components/Signup';
+
+
 
 function App() {
+  const [products, setProducts] = useState([])
+  const [cart, setCart] = useState([])
+  
+  // fetch data
+  useEffect(() => {
+    fetch('http://localhost:3000/products')
+    .then(res => res.json())
+    .then(data => setProducts(data));
+  }, []);
+
+  const handleClick = (product, isInCart) => {
+    if (cart.includes(product) && isInCart === true) {
+      setCart(cart.filter(({id}) => id !== product.id))
+    } else if (cart.includes(product) === false) {
+      setCart(cart => [...cart, product])
+    }
+  }
+
   return (
     <div className="App">
-      <Navbar />
-      <Banner />
-      <Featured />
-      <Offer />
-      <Footer />
+        {/* use Router to aid in navigation inside the application */}
+        <Router>
+        {/* call Navbar */}
+        <Navbar /> 
+          <Routes>
+          <Route path='/' element={< Home products={products} handleClick={handleClick}/> } />
+            <Route path='/Cart' element={< Cart setCart={setCart} cart={cart} handleClick={handleClick} />}/>
+            <Route path='/Signup' element={<Signup />}/>
+          </Routes>
+        </Router>
     </div>
-    
   );
 }
 

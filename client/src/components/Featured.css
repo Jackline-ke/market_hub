@@ -1,3 +1,39 @@
 .f-title{
     color: #fca61f;
 }
+.phone{
+    transition: 1s;
+}
+.phone:hover{
+    transform: scale(0.8);
+}
+.groceries{
+    transition: 1s;
+}
+.groceries:hover{
+    transform: scale(0.8);
+}
+.tv{
+    transition: 1s;
+}
+.tv:hover{
+    transform: scale(0.8);
+}
+.women{
+    transition: 1s;
+}
+.women:hover{
+    transform: scale(0.8);
+}
+.men{
+    transition: 1s;
+}
+.men:hover{
+    transform: scale(0.8);
+}
+.perfumes{
+    transition: 1s;
+}
+.perfumes:hover{
+    transform: scale(0.8);
+}
