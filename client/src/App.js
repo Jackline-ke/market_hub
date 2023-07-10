@@ -4,9 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React, {useState, useEffect} from 'react';
 import Cart from './pages/Cart';
 import Home from './pages/Home';
-import Signup from './components/Signup';
-
-
+import SignUp from './components/SignUp';
 
 function App() {
   const [products, setProducts] = useState([])
@@ -36,7 +34,7 @@ function App() {
           <Routes>
           <Route path='/' element={< Home products={products} handleClick={handleClick}/> } />
             <Route path='/Cart' element={< Cart setCart={setCart} cart={cart} handleClick={handleClick} />}/>
-            <Route path='/Signup' element={<Signup />}/>
+            <Route path='/SignUp' element={<SignUp />}/>
           </Routes>
         </Router>
     </div>
