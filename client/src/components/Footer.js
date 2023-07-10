@@ -6,14 +6,14 @@ import { Icons } from './Menu';
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 text-white">
+        <footer className="rgb:f5c32c">
 
 
         
             <div className = "md:flex md:justify-between md:items_center sm:px-12">
                 <h1 className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5">
 
-                    <span className="text-teal-400">Free</span> until you're ready to launch
+                    <span className="text-teal-400">MarketHub</span>: the place you would rather be
                 </h1>
                 <div>
                     <input type="text" placeholder="Enter Your ph.no" className="text-gray-800
