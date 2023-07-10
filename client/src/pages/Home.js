@@ -12,6 +12,7 @@ import Phone from '../components/Phone';
 import Groceries from '../components/Groceries';
 import Women from '../components/Women';
 import Men from '../components/Men';
+
 /*I have added productsToDisplay as a prop and imported useState to track state of search term */
 
 function Home({products, handleClick}) {
