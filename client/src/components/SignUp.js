@@ -1,6 +1,7 @@
 import React from "react";
+import loginImg from 'client/src/assests/image.jpg';
 
-export default function signUp {
+export default function signUp() {
 
     return (
         <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full'>
