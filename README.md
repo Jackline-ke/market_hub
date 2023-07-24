@@ -2,10 +2,14 @@
 MarketHub is a web application built with Ruby on Rails and React that simulates an online marketplace where buyers can browse products and adding them to their carts. It provides a platform for sellers to list and manage their products, and buyers to explore and purchase items.
 
 ## Features
-- User Registration and Authentication: Buyers and sellers can register and log in to their accounts.
-- Product Listings: Sellers can create, update, and delete product listings, including details such as name, description, price, and category.
-- Product Categories: Products are categorized into different categories to aid navigation and search.
-- Cart Management: Buyers can add products to their cart, view the cart contents, update quantities, and remove items.
+###User Registration and Authentication
+- Buyers and sellers can register and log in to their accounts.
+### Product Listings 
+- Sellers can create, update, and delete product listings, including details such as name, description, price, and category.
+### Product Categories
+- Products are categorized into different categories to aid navigation and search.
+### Cart Management
+- Buyers can add products to their cart, view the cart contents, update quantities, and remove items.
 
 Installation
 Clone the repository:
@@ -37,30 +41,24 @@ Copy code
 rails server
 Access the application in your browser at http://localhost:3000.
 
-Usage
-Sign up as a buyer or seller to create an account.
-Browse products by category or search for specific items.
-Add products to your cart, update quantities, and proceed to checkout.
-Leave ratings and reviews for products you have purchased or interacted with.
-Sellers can manage their product listings, including creating, updating, and deleting products.
-Explore the application and experience the functionality provided.
-Contributing
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+## Usage
+- Sign up as a buyer or seller to create an account.
+- Browse products by category or search for specific items.
+- Add products to your cart, update quantities, and proceed to checkout.
+- Sellers can manage their product listings, including creating, updating, and deleting products.
+- Explore the application and experience the functionality provided.
+  
+##Contributing
+- Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Contributors 
-jackline Anyango
-eric Thiongo
-Sherry Kisilu
-Ernest Okiror
+## Acknowledgments
+- The project was inspired by popular online marketplaces like Jumia and Amazon.
+- Special thanks to the Ruby on Rails and React community for providing excellent documentation and resources.
 
-Acknowledgments
-The project was inspired by popular online marketplaces like Jumia and Amazon.
-Special thanks to the Ruby on Rails community for providing excellent documentation and resources.
-
-Page
+## Page
 Banner
 ![Screenshot from 2023-07-24 08-14-17](https://github.com/Jackline-ke/market_hub/assets/62282697/a729b361-c0f3-4c79-be76-13199c08f28e)
 Featured Products
