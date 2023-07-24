@@ -1,12 +1,12 @@
-MarketHub App
-MarketHub is a web application built with Ruby on Rails that simulates an online marketplace where buyers can browse products, add them to their carts, and leave ratings and reviews. It provides a platform for sellers to list and manage their products, and buyers to explore and purchase items.
-Features
-User Registration and Authentication: Buyers and sellers can register and log in to their accounts.
-Product Listings: Sellers can create, update, and delete product listings, including details such as name, description, price, and category.
-Product Categories: Products are categorized into different categories to aid navigation and search.
-Cart Management: Buyers can add products to their cart, view the cart contents, update quantities, and remove items.
-Ratings and Reviews: Buyers can leave ratings and reviews for products they have purchased or interacted with.
-Search Functionality: Users can search for products based on keywords, categories, or other filters.
+# MarketHub App
+MarketHub is a web application built with Ruby on Rails and React that simulates an online marketplace where buyers can browse products and adding them to their carts. It provides a platform for sellers to list and manage their products, and buyers to explore and purchase items.
+
+## Features
+- User Registration and Authentication: Buyers and sellers can register and log in to their accounts.
+- Product Listings: Sellers can create, update, and delete product listings, including details such as name, description, price, and category.
+- Product Categories: Products are categorized into different categories to aid navigation and search.
+- Cart Management: Buyers can add products to their cart, view the cart contents, update quantities, and remove items.
+
 Installation
 Clone the repository:
 
