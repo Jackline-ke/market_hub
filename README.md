@@ -29,7 +29,7 @@ MarketHub is a web application built with Ruby on Rails and React that simulates
 ![Screenshot from 2023-07-24 08-18-17](https://github.com/Jackline-ke/market_hub/assets/62282697/bc4a0533-f04a-42d3-a38a-62166c35e65f)
 ### Different Products
 ![Screenshot from 2023-07-24 08-20-08](https://github.com/Jackline-ke/market_hub/assets/62282697/78f58f21-8fbb-484b-bbae-e535e079704a)
-### Product according to their category
+### Products according to their category
 ![Screenshot from 2023-07-24 08-22-56](https://github.com/Jackline-ke/market_hub/assets/62282697/859d4579-2c7d-4c39-810f-1d2c6907ce72)
 ### Product added to cart
 ![Screenshot from 2023-07-24 08-23-59](https://github.com/Jackline-ke/market_hub/assets/62282697/fb61eb35-f3eb-4e00-8c92-6b53b04c4bd8)
