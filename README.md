@@ -18,12 +18,6 @@ MarketHub is a web application built with Ruby on Rails and React that simulates
 - Sellers can manage their product listings, including creating, updating, and deleting products.
 - Explore the application and experience the functionality provided.
   
-## Contributing
-- Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
-
-## License
-This project is licensed under the MIT License.
-
 ## Acknowledgments
 - The project was inspired by popular online marketplaces like Jumia and Amazon.
 - Special thanks to the Ruby on Rails and React community for providing excellent documentation and resources.
@@ -42,7 +36,13 @@ This project is licensed under the MIT License.
 ### Registration
 ![Screenshot from 2023-07-24 08-26-03](https://github.com/Jackline-ke/market_hub/assets/62282697/93af2daf-150e-4f78-8e78-c1c3d4119849)
 
-##Author
+## Contributing
+- Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+- 
+## License
+This project is licensed under the MIT License.
+
+## Author
 Jackline Adhiambo
 
 
