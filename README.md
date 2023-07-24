@@ -59,3 +59,23 @@ Ernest Okiror
 Acknowledgments
 The project was inspired by popular online marketplaces like Jumia and Amazon.
 Special thanks to the Ruby on Rails community for providing excellent documentation and resources.
+
+Page
+Banner
+![Screenshot from 2023-07-24 08-14-17](https://github.com/Jackline-ke/market_hub/assets/62282697/a729b361-c0f3-4c79-be76-13199c08f28e)
+Featured Products
+![Screenshot from 2023-07-24 08-18-17](https://github.com/Jackline-ke/market_hub/assets/62282697/bc4a0533-f04a-42d3-a38a-62166c35e65f)
+Different Products
+![Screenshot from 2023-07-24 08-20-08](https://github.com/Jackline-ke/market_hub/assets/62282697/78f58f21-8fbb-484b-bbae-e535e079704a)
+Product according to their category
+![Screenshot from 2023-07-24 08-22-56](https://github.com/Jackline-ke/market_hub/assets/62282697/859d4579-2c7d-4c39-810f-1d2c6907ce72)
+Product added to cart
+![Screenshot from 2023-07-24 08-23-59](https://github.com/Jackline-ke/market_hub/assets/62282697/fb61eb35-f3eb-4e00-8c92-6b53b04c4bd8)
+Sign Up
+![Screenshot from 2023-07-24 08-26-03](https://github.com/Jackline-ke/market_hub/assets/62282697/93af2daf-150e-4f78-8e78-c1c3d4119849)
+
+
+
+
+
+
